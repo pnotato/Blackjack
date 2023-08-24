@@ -99,7 +99,7 @@ function stay() {
     }
     //both you and dealer <= 21
     else if (yourSum == dealerSum) {
-        message = "Tie";
+        message = "Tie!";
     }
     else if (yourSum > dealerSum) {
         message = "You Win!";
